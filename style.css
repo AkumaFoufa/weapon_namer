@@ -39,7 +39,7 @@
 
 #real-button {
   position: absolute;
-  top: 20vh;
+  top: 65vh;
   left: 50%;
   transform: translate(-50%, -50%);
   background-color: transparent;
@@ -78,7 +78,7 @@
 
 @media (max-width: 768px) {
   #real-button {
-    top: 71vh;
+    top: 20vh;
     width: 180px;
     height: 45px;
   }
