@@ -75,3 +75,23 @@
   -webkit-box-orient: vertical;
 }
 }
+
+@media (max-width: 768px) {
+  #real-button {
+    top: 55vh;
+    width: 180px;
+    height: 45px;
+  }
+
+  #name-box {
+    width: 90%;
+    font-size: 1.2em;
+    height: auto;
+    padding: 1em 0.5em;
+  }
+
+  body {
+    background-size: cover;
+    overflow: auto;
+  }
+}
