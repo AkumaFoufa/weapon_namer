@@ -19,7 +19,8 @@
   will-change: transform;
 }
 
-body {
+@media screen {
+  body {
   font-family: 'Cubic11', monospace;
   background-color: #12121a;
   background-image: url("Let him name your weapon？.png");
@@ -72,4 +73,5 @@ body {
   display: -webkit-box;        
   -webkit-line-clamp: 2;       
   -webkit-box-orient: vertical;
+}
 }
